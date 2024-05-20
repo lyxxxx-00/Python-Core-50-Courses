@@ -1,7 +1,7 @@
 ## 第02课：第一个Python程序
 
 在上一课中，我们已经了解了Python语言并安装了运行Python程序所需的环境，相信大家已经迫不及待的想开始自己的Python编程之旅了。首先我们来看看应该在哪里编写我们的Python程序。
-
+> **注**: 这里没配置到环境下，可以输入路径，或者直接点开python文件里的command prompt
 ### 编写代码的工具
 
 #### 交互式环境
@@ -28,7 +28,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 #### 更好的交互式环境 - IPython
 
 Python默认的交互式环境用户体验并不怎么好，我们可以用IPython来替换掉它，因为IPython提供了更为强大的编辑和交互功能。我们可以使用Python的包管理工具`pip`来安装IPython，如下所示。
-
+> **注**: 这里的路径是python文件里的Scripts文件夹里的pip，如果没配置到环境下，一时的懒带来了之后的麻烦....
 ```bash
 pip install ipython
 ```
@@ -41,11 +41,11 @@ pip install ipython
 ipython
 ```
 
-#### 文本编辑器 - Visual Studio Code
+#### 文本编辑器(Text Editor) - Visual Studio Code
 
 Visual Studio Code（通常简称为VSCode）是一个由微软开发能够在Windows、 Linux和macOS等操作系统上运行的代码编辑神器。它支持语法高亮、自动补全、多点编辑、运行调试等一系列便捷功能，而且能够支持多种编程语言。如果大家要选择一款高级文本编辑工具，强烈建议使用VSCode。关于VSCode的[下载](https://code.visualstudio.com/)、安装和使用，推荐大家阅读一篇名为[《VScode安装使用》](<https://zhuanlan.zhihu.com/p/106357123>)的文章。
 
-#### 集成开发环境 - PyCharm
+#### 集成开发环境(Integrated Development Environment) - PyCharm
 
 如果用Python开发商业项目，我们推荐大家使用更为专业的工具PyCharm。PyCharm是由捷克一家名为[JetBrains](https://www.jetbrains.com/)的公司开发的用于Python项目开发的集成开发环境（IDE)。所谓集成开发环境，通常是指工具中提供了编写代码、运行代码、调试代码、分析代码、版本控制等一系列功能，因此特别适合商业项目的开发。在JetBrains的官方网站上提供了PyCharm的[下载链接](<https://www.jetbrains.com/pycharm/download>)，其中社区版（Community）是免费的但功能相对弱小（其实已经足够强大了），专业版（Professional）功能非常强大，但需要按年或月付费使用，新用户可以试用30天时间。
 
