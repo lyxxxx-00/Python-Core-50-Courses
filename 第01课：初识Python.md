@@ -52,7 +52,7 @@ Python最主要的缺点是执行效率低，但是当我们更看重产品的�
 ### 安装Python环境
 
 想要开始你的Python编程之旅，首先得在计算机上安装Python环境，简单的说就是得安装运行Python程序的工具，通常也称之为**Python解释器**以及一些常用的库和工具。我们强烈建议大家安装Python 3的环境，很明显它是目前更好的选择。
-> **注**: 没必要配置到系统环境下，反正都是用编译器，like vs code，来写代码
+
 #### Windows环境
 
 可以在[Python官方网站](https://www.python.org/downloads/)找到下载链接并下载Python 3的安装程序。
